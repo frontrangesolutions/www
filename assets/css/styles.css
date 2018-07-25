@@ -81,18 +81,19 @@ li {
 	line-height: 2;
 }
 
-ul.grid {
+.grid {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	max-width: 1200px;
 }
 
-.grid li {
+.grid>div {
 	display: table;
 }
 
-.grid li>* {
+.grid>div>* {
 	display: table-cell;
 	padding: 20px;
 	vertical-align: middle;
@@ -100,7 +101,7 @@ ul.grid {
 	text-shadow: 0 0 10px black;
 }
 
-.grid li>p {
+.grid>div>p {
 	text-align: left;
 	font-size: larger;
 }
@@ -229,7 +230,7 @@ header nav li:last-child {
 	background-color: #fff;
 }
 
-.our-work .grid li {
+.our-work .grid>div {
 	padding: 20px;
 	height: 350px;
 	border-radius: 3px;
@@ -239,17 +240,17 @@ header nav li:last-child {
 	background-color: #333;
 }
 
-.our-work .grid li.small {
+.our-work .grid>div.small {
 	flex-basis: 40%;
 }
 
-.our-work .grid li.large {
+.our-work .grid>div.large {
 	flex-basis: 60%;
 }
 
-@media (max-width: 1000px) {
-	.our-work .grid li.small,
-	.our-work .grid li.large {
+@media (max-width: 800px) {
+	.our-work .grid>div.small,
+	.our-work .grid>div.large {
 		flex-basis: 100%;
 	}
 }
