@@ -97,8 +97,13 @@ li {
 	display: table-cell;
 	padding: 20px;
 	vertical-align: middle;
-	/* color: white;
-	text-shadow: 0 0 10px black; */
+}
+
+.grid>div>h2 {
+	color: white;
+	text-shadow: 0 0 10px black;
+	font-size: 3em;
+	text-align: center;
 }
 
 .grid>div>p {
