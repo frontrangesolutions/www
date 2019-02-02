@@ -31,11 +31,16 @@ a:hover {
 
 a.btn {
 	color: #fff;
+	border: solid thin navy;
 	border-radius: 4px;
-	text-transform: uppercase;
 	background-color: #2196F3;
 	font-weight: 800;
 	text-align: center;
+	padding: 1em;
+}
+
+a.btn:hover {
+	background-color: navy;
 }
 
 hr {
