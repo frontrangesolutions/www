@@ -97,8 +97,8 @@ li {
 	display: table-cell;
 	padding: 20px;
 	vertical-align: middle;
-	color: white;
-	text-shadow: 0 0 10px black;
+	/* color: white;
+	text-shadow: 0 0 10px black; */
 }
 
 .grid>div>p {
@@ -237,7 +237,7 @@ header nav li:last-child {
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
-	background-color: #333;
+	/* background-color: #333; */
 }
 
 .our-work .grid>div.small {
