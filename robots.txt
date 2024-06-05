@@ -1,1 +1,1 @@
-Sitemap: http://www.frontrange.us/sitemap.xml
+Sitemap: https://www.frontrange.us/sitemap.xml
